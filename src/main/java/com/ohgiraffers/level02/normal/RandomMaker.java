@@ -21,4 +21,9 @@ public class RandomMaker {
         String[] arr = {"가위", "바위", "보"};
         return arr[(int) (Math.random() * 3)];
     }
+
+    public String tossCoin() {
+        String[] arr = {"앞면", "뒷면"};
+        return arr[(int)(Math.random() * 2)];
+    }
 }
